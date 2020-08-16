@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap link -->
+
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+
+    <!-- font awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- css links -->
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Stuwork</title>
+</head>
+
+<body class="container-fluid">
+
+    <header>
+        <nav class="navbar navbar-expand-lg container navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="/images/LOGO.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link navlink" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navlink" href="#">Find Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navlink" href="#">Hire Intern</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navlink" href="#">AboutUs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navlink" href="#">ContactUs</a>
+                    </li>
+                    <li class="nav-item FAQ">
+                        <a class="nav-link navlink" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Sign-up" href="./signup.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-primary Sign-in" href="./signin.html">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- <div class="topnav" id="myTopnav">
+           <div class="container header-logo">
+              <a href="#"><img alt="" src="/images/LOGO.png"></a>
+              <div>
+                 <a href="#home" class="active home" style="margin-left: 4rem;">Home</a>
+                 <a href="#Home" class="">Home</a>
+                 <a href="#FindJobs">Find Jobs</a>
+                 <a href="#HireIntern">Hire Intern</a>
+                 <a href="#AboutUs">AboutUs</a>
+                 <a href="#ContactUs">ContactUs</a>
+                 <a href="#FAQ" class="FAQ">FAQ</a>
+              </div>
+              <div>
+                 <a class="nav-link Sign-up" href="#" style="margin-left: 5rem;">Sign Up</a>
+                 <a class="nav-link btn-primary Sign-in" href="#">Sign In</a>
+                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                 <i class="fa fa-bars"></i>
+                 </a>
+              </div>
+              
+           </div>
+        </div> -->
+    </header>
+
+
+
+    <div class="container head-section">
+        <div class="row">
+            <div class="pt-5 col-md-6">
+                <h2>
+                    Student? lets get you started to gaining <br> experience <b>Experience</b> and <b>Earning</b> <br>
+                    while in school
+                </h2>
+
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Consectetur quisquam, nam culpa ea
+                    quis dolorum repellat fugiat. <br>
+                </p>
+
+                <button>
+                    Get Started
+                </button>
+            </div>
+
+            <div class="col-md-6">
+                <img class="stu-img" src="./assets/Group 1.svg" alt="">
+            </div>
+
+
+        </div>
+    </div>
+
+    <section class="section-1 container">
+        <marquee behavior="scroll" direction="left">
+            <div class="com-logo">
+                <img src="./assets/Trusted By Top Companies.png" alt="companies">
+                <img src="./assets/chatdesk.svg" alt="chatdesk">
+                <img src="./assets/flutterwave.svg" alt="">
+                <img src="./assets/piggyvest.svg" alt="piggyvest">
+                <img src="./assets/Vector (5).png" alt="hotel.ng">
+                <img src="./assets/verifi.svg" alt="verifi">
+                <img src="./assets/Vector (4).png" alt="oracle">
+
+        </marquee>
+        </div>
+
+    </section>
+
+
+    <section class="section-2 container">
+        <div class="find-job">
+            <h5>Find a job</h5>
+            <div class="row">
+                 <div class="col-md-3  job- pb-15">
+                    <input size="30" type="search" name="search" id="search"
+                        placeholder="Job title, keywords or company">
+                </div>
+
+                <div class="col-md-4  job-title ">
+                    
+                 <select  name = "dropdown">
+                    <option value = "Full-time" selected>Full-Time</option>
+                    <option value = "Part-time">Part-time</option>
+                    <option value = "Internship">Intership</option>
+                 </select>
+                </div>
+
+
+
+                 <div class="col-md-3  locaton">
+                    <input size="20" type="text" name="location" id="location" placeholder=" Location">
+                </div>
+
+                <div class="col-md-2  search">
+                    <button>search</button>
+                </div>
+
+                <hr>
+                <h5>
+                    Recent Opening
+                </h5>
+
+
+                <div class="job-card container">
+                    <!-- card-1 -->
+                    <div class="row">
+                        <!-- card 1 -->
+                        <div class="col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img class="job-card-img " src="./assets/green-like.svg" alt="">
+                                        <!-- <img src="..." class="card-img" alt="..."> -->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Andela</h5>
+                                            <h4>UI/UX Designer</h4>
+
+                                            <p>Remote</p>
+
+                                            <p>NGN 100,000 - 150,000</p>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="emoji">
+                                        <p>❤</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- card 2 -->
+
+                        <div class="col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img class="job-card-img " src="./assets/purple.svg" alt="">
+                                        <!-- <img src="..." class="card-img" alt="..."> -->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Fluterwave</h5>
+                                            <h4>Project Manager</h4>
+
+                                            <p>Remote</p>
+
+                                            <p>NGN 100,000 - 150,000</p>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="emoji">
+                                        <p>❤</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <!-- card -3 -->
+
+                        <div class="col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img class="job-card-img " src="./assets/pink.svg" alt="">
+                                        <!-- <img src="..." class="card-img" alt="..."> -->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Hotels.ng</h5>
+                                            <h4>Graphics Designer</h4>
+
+                                            <p>Remote</p>
+
+                                            <p>NGN 100,000 - 150,000</p>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="emoji">
+                                        <p>❤</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <!-- card 4 -->
+                        <div class="col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img class="job-card-img " src="./assets/blue.svg" alt="">
+                                        <!-- <img src="..." class="card-img" alt="..."> -->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Piggyvest</h5>
+                                            <h4>Frontend Developer</h4>
+
+                                            <p>Remote</p>
+
+                                            <p>NGN 100,000 - 150,000</p>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="emoji">
+                                        <p>❤</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- get hired section  -->
+
+    <section class="section-3">
+        <div class="get-hired-section text-center">
+            <h3 class="get-hired-h3">
+                <span>Get hir</span>ed in these simple steps
+            </h3>
+            <div class="text-center number-text col-sm-12">
+
+                <p>
+                    <b>1</b> <span>..........</span> <b>2</b> <span>..........</span> <b>3</b>
+                </p>
+            </div>
+        </div>
+
+        <div class="step-text">
+            <div class="row">
+                <!-- first section -->
+                <div class="col-md-4 text-center">
+                    <h5>
+                        Complete your profile
+                    </h5>
+
+                    <p>
+                        Egestas vestibulum viverra lectus quisqueerat nisl. Nisl pellentesque proin posuere vitae,
+                        pulvinar iaculis.
+                    </p>
+                </div>
+
+                <!-- second section -->
+                <div class="col-md-4 text-center">
+                    <h5>
+                        Search Interest
+                    </h5>
+
+                    <p>
+                        Egestas vestibulum viverra lectus quisqueerat nisl. Nisl pellentesque proin posuere vitae,
+                        pulvinar iaculis.
+                    </p>
+                </div>
+
+                <!-- third section -->
+                <div class="col-md-4 text-center">
+                    <h5>
+                        Submit Application
+                    </h5>
+
+                    <p>
+                        Egestas vestibulum viverra lectus quisqueerat nisl. Nisl pellentesque proin posuere vitae,
+                        pulvinar iaculis.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- ***************************** TESTIMONIAL SECTION ******************************** -->
+
+    <!-- <section class="testimonial"> -->
+
+        <section class="testimonial">
+    <div class="testimonial-card container text-center">
+
+        <h3> <span>Testim</span>onials From our Users</h3>
+        <div class="card-deck">
+
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/turtle-neck.svg" class="card-img-top " alt="">
+                <div class="card-body">
+                    <h5 class="card-title text-left">Philip Olorunfemi Ofei</h5>
+                    <p>Product Designer</p>
+                    <p>300L University Of Lagos </p>
+                    <p class="card-text">I am a 300level student from the university of lagos, even tho i started good
+                        at what i do, i have not been given an opportunity by companies to showcase my talent and
+                        passion, stuwork has proven that you can still work and go to school, their platform has... Read
+                        More</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">View Profile</small>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="./assets/Rectangle 9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-left">Philip Olorunfemi Ofei</h5>
+                    <p>Product Designer</p>
+                    <p>300L University Of Lagos </p>
+                    <p class="card-text">I am a 300level student from the university of lagos, even tho i started good
+                        at what i do, i have not been given an opportunity by companies to showcase my talent and
+                        passion, stuwork has proven that you can still work and go to school, their platform has... Read
+                        More</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">View Profile</small>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/Rectangle 9 (1).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-left">Philip Olorunfemi Ofei</h5>
+                    <p>Product Designer</p>
+                    <p>300L University Of Lagos </p>
+                    <p class="card-text">I am a 300level student from the university of lagos, even tho i started good
+                        at what i do, i have not been given an opportunity by companies to showcase my talent and
+                        passion, stuwork has proven that you can still work and go to school, their platform has... Read
+                        More</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">View Profile</small>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    </div>
+
+    </section>
+
+    <section class="plain-text text-center">
+        <h5>
+            looking for the perfect platform to Gain industry <br> Experience and Earn Money
+
+            <br>
+
+            <button>
+                Join stuwork
+            </button>
+        </h5>
+    </section>
+
+
+    <section class="final-section container-fluid ">
+        <div class="pad"></div>
+
+        <hr>
+
+        <div class="final-sect-txt-1 text-center container">
+            <p>
+                We believe in helping students make a difference, and we work with like minded people. Our team is
+                united, and that’s what makes us move to the next level. Check out our open positions!
+            </p>
+        </div>
+
+        <div class="final-sect-txt-2">
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- column 1 -->
+                    <h4>
+                        <span>Our St</span>ory
+                    </h4>
+
+                    <p>
+                        Arcu ornare posuere id amet in porta etiam interdum. Scelerisque odio molestie penatibus
+                        maecenas ullamcorper pharetra malesuada. Nunc convallis enim semper aliquet. Sed scelerisque
+                        viverra nec rutrum orci, quisque pharetra mauris.
+                    </p>
+                </div>
+                <!-- column 2-->
+                <div class="col-md-4">
+                    <h4>
+                        <span> Our Ex</span>pectation
+                    </h4>
+
+                    <p>
+                        Mi venenatis dictumst aliquam, habitant cursus ut nullam faucibus at. Habitant amet sit vitae
+                        leo, in sit mauris in a. Sed aliquet at id vestibulum. Sed quis proin et, nulla vulputate eget
+                        euismod.
+                    </p>
+                </div>
+
+                <!-- column 3 -->
+                <div class="col-md-4">
+                    <h4>
+                        <span>Yo</span>u!
+                    </h4>
+
+                    <p>
+                        Arcu ornare posuere id amet in porta etiam interdum. Scelerisque odio molestie penatibus
+                        maecenas ullamcorper pharetra malesuada. Nunc convallis enim semper aliquet. Sed scelerisque
+                        viverra nec rutrum orci, quisque pharetra mauris.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- bottom section -->
+
+    </section>
+
+    <section class="buttons container bg-white">
+
+        <div class=" button-set row">
+            <div class="col-md-8 job-button">
+
+                <h3>
+                    Are you Looking For?
+                </h3>
+
+                <!-- <a href=""> -->
+                <button>Jobs</button>
+                <!-- </a> -->
+                <!-- <a href=""> -->
+                <button> Internship </button>
+                <!-- </a> -->
+                <!-- <a href=""> -->
+                <button>Part Time</button>
+                <!-- </a> -->
+                <!-- <a href=""> -->
+                <button>Evening jobs</button>
+                <!-- </a> -->
+                <!-- <br> -->
+                <!-- <a href=""> -->
+                <button>Weekend jobs</button>
+                <!-- </a> -->
+                <!-- <a href=""> -->
+                <button>Freelance</button>
+                <!-- </a> -->
+                <!-- <a href=""> -->
+                <button>Contract jobs</button>
+                <!-- </a> -->
+
+                <p class="small-text text-primary ">
+                    Check all our vacancies
+                </p>
+            </div>
+
+
+            <div class="col-md-4 cv">
+
+                <h3> Create your Free CV</h3>
+
+                <button>CREATE CV</button>
+
+                <p>
+                    Use our Free CV Template to create a professional looking CV quickly
+                </p>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left container">
+
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-4 mt-md-0 mt-3">
+                    <!-- Content -->
+                    <a href="#"><img alt="" src="/images/LOGO-2.png"></a>
+                    <p class="footer-text">Id varius ultrices tellus faucibus nec non euismod eget accumsan. Ac eget
+                        egestas enim vestibulum neque sed tincidunt arcu. Et sed tortor, amet in purus, elit dolor felis
+                        viverra. Dui, mattis ipsum sit adipiscing sem lacus arcu risus.</p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-md-0 mb-3 mt-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Explore</h5>
+
+                    <ul class="list-unstyled Explore">
+                        <li>
+                            <a href="#!">Home</a>
+                        </li>
+                        <li>
+                            <a href="#!">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#!">FAQ</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-md-0 mb-3 mt-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Services</h5>
+
+                    <ul class="list-unstyled Services">
+                        <li>
+                            <a href="#!">Find Jobs</a>
+                        </li>
+                        <li>
+                            <a href="#!">Hire Interns</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-md-0 mb-3 mt-3">
+                    <h5 class="text-uppercase">Follow</h5>
+                    <div class="social-media-icons">
+                        <a href="#"><i class="fa fa-facebook fa-social"></i></a>
+                        <a href="#"><i class="fa fa-instagram fa-social"></i></a>
+                        <a href="#"><i class="fa fa-linkedin fa-social"></i></a>
+                    </div>
+                </div>
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-md-0 mb-3 mt-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Legal</h5>
+
+                    <ul class="list-unstyled Legal">
+                        <li>
+                            <a href="#!">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#!">Terms & Condition</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+            <hr style="background: #666666;">
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright container py-3">StuWork. All Rights Reserved</div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.
+
+net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+
+</html>

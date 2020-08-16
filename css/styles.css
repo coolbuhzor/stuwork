@@ -1,0 +1,567 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy', sans-serif;
+    /* font-size: 18px; */
+}
+
+
+
+
+
+
+/* *************************NAV section**************************** */
+header {
+    background: white;
+    box-shadow: 0px 8px 16px rgba(50, 50, 71, 0.06);
+    /* position: fixed; */
+    float: left;
+    width: 100%;
+    z-index: 20;
+
+}
+
+.navbar-brand img,
+.header-logo img {
+    width: 97px;
+}
+
+
+.navbar-brand {
+    padding-right: 5rem;
+}
+
+
+
+.FAQ {
+    padding-right: 4rem;
+}
+
+
+.Sign-in {
+    color: white !important;
+    width: 130px;
+    background: #0084F4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.Sign-in,
+.Sign-up {
+    margin-top: 0.5rem;
+}
+
+
+
+.Sign-up {
+    border: 1px solid #2F80ED !important;
+}
+
+.Sign-up:hover {
+    background-color: #0084F4;
+}
+
+
+.navlink {
+    color: #666666;
+    border-bottom: 5px solid transparent;
+    /* padding: 1rem !important;  */
+}
+
+
+#navbarSupportedContent a:hover {
+    border-color: #2D9CDB;
+}
+
+
+/* ********************************* HEADER SECTION**************************************** */
+
+.stu-work {
+    width: 50%;
+}
+
+.head-section h2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    align-items: center;
+
+    color: #151522;
+}
+.head-section {
+    background-color: #F8F8F8;
+}
+
+.head-section p {
+    font-family: 'gilroy';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    padding: 5% 0;
+    background-color: #F8F8F8;
+
+    color: #000000;
+}
+
+.head-section button {
+    border-radius: 8px;
+    color: #FFFFFF;
+    width: 151px;
+    height: 50px;
+    background-color: #0084f4;
+    border: none;
+    margin-bottom: 15%;
+}
+
+/* header {
+    background: url(../assets/StuWork.png)  no-repeat center center/cover;
+   
+    height: 550px;
+    width: 90%;
+} */
+
+.image-4 {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.image-2 {
+    position: absolute;
+    right: 50px;
+}
+
+.image-3 {
+    position: absolute;
+    top: 50px;
+    z-index: -2;
+}
+
+
+/* ************************************SECTION !****************************************** */
+
+.section-1 {
+    background-color: #E4E4E4;
+    padding: 3%;
+}
+
+.com-logo img {
+    padding: 1%;
+}
+
+
+
+
+/* ************************************ FIND JOB ****************************************** */
+.section-3 {
+    padding-bottom: 10%;
+}
+.find-job h5 {
+    padding: 4% 0 3% 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+input {
+    border: 1px solid #666666;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 30px;
+
+}
+
+input:hover {
+    color: #2D9CDB;
+}
+
+.job-title {
+    width: 10%;
+    height: 60px;
+}
+
+.find-job button {
+color: white;
+background-color: #0084F4;
+padding: 5%;
+border: none;
+border-radius: 8px;
+
+}
+
+.stu-img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+select {
+    width: 350px;
+    height: 30px;
+}
+
+
+.job-card .card {
+    /* width: 300px;
+    height: 200px; */
+    margin: 4%;
+    border-radius: 8px;
+    border: 1px solid #0011;
+    box-shadow: 2px 8px 16px rgba(50, 50, 71, 0.08);
+    padding: 5%;
+
+}
+
+.job-card .card:hover {
+    outline: auto;
+    outline-color: #2F80ED;
+}
+
+
+
+
+.job-card-text {
+    /* float: right; */
+    padding-left: 3%;
+
+}
+
+
+
+
+/* ************************************ SECTION 3 GET HIRED ****************************************** */
+.section-3 {
+    background-color: #F8F8F8;
+}
+
+.get-hired-h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 4%;
+
+}
+
+.get-hired-h3 span {
+    padding-bottom: 4%;
+    text-decoration: underline;
+    text-decoration-color: #FF647C;
+}
+
+/* .step123 {
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+} */
+.steps {
+    background: #56CCF2;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 0.3rem;
+    float: left;
+}
+
+.step-num {
+    float: left;
+    /* display: inline; */
+}
+
+
+.number-text b {
+    font-size: 1.5rem;
+    background-color: #2F80ED;
+    border-radius: 50%;
+    color: white;
+    padding: 15px;
+    width: 3.75rem;
+    height: 3.75rem;
+
+}
+
+.number-text span {
+    color: #56CCF2;
+    font-weight: 500;
+    font-size: 80px;
+    word-spacing: 10em;
+    border-radius: 50%;
+
+}
+
+.step-text p {
+    text-align: center;
+    width: 70%;
+    padding-bottom: 7%;
+    margin: auto;
+}
+
+
+
+
+/* **********************testimonial************************* */
+
+.testimonial {
+    padding: 7%;
+}
+
+
+.testimonial h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    padding: 3%;
+
+
+}
+
+.testimonial .card {
+    border: none;
+    background: #FFFFFF;
+box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+}
+
+.card-footer {
+    background: #00C48C;
+border-radius: 0px 0px 12px 12px;
+}
+
+
+.testimonial span {
+    text-decoration: underline;
+    text-decoration-color: #FF647C;
+}
+
+
+/* *******************plain text********* */
+
+.plain-text {
+    background-color: #4EAEFF;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2rem;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+
+}
+
+.plain-text button {
+    background: #0084F4;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: none;
+    margin-top: 2rem;
+}
+
+
+.plain-text button:hover {
+    padding: 1.2rem;
+    
+}
+
+/* ***********final  section*********** */
+
+.final-section {
+    background-color: #F8F8F8;
+
+}
+
+.pad {
+    padding-top: 3rem;
+}
+
+.final-section hr {
+    width: 6.5rem;
+    height: 5px;
+    background: #FF647C;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 3rem;
+
+
+}
+
+
+.final-sect-txt-1 p {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 4%;
+
+}
+
+
+.final-sect-txt-2 {
+    padding: 7%;
+
+}
+
+.final-sect-txt-2 h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #666666;
+}
+
+.final-sect-txt-2 p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 2;
+    padding: 3%;
+
+
+    color: #666666;
+}
+
+.final-sect-txt-2 span {
+    padding-bottom: 10%;
+    text-decoration: underline;
+    text-decoration-color: #FF647C;
+
+}
+
+
+
+
+
+/* *******************BOTTOM BUTTON SECTION********* */
+.buttons {
+    background: #FFFFFF;
+}
+
+.job-button button {
+    color: white;
+    background-color: #56CCF2;
+    padding: 1rem 2.5rem;
+    border: none;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+
+
+}
+
+
+.job-button button:hover {
+    font-size: 1.03rem;
+}
+
+.buttons h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-top: 2.25rem;
+    padding: 1rem;
+
+}
+
+.job-button p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    text-decoration: underline;
+    padding: 2%;
+
+}
+
+
+.cv button {
+    padding: 1rem 6rem;
+    background: #0084F4;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: white;
+    border: none;
+
+}
+
+.cv button:hover {
+    font-size: 1.05rem;
+}
+
+.cv p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 0.rem;
+    color: #666666;
+    padding-top: 2%;
+
+}
+
+
+/* **********************************FOOTER*********************************** */
+
+.fa-social {
+    padding: 1.5rem;
+    color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+}
+
+.page-footer {
+    padding-top: 4.5rem;
+}
+
+footer {
+    background: #151522;
+    color: white;
+}
+
+footer img {
+    width: 175.43px;
+}
+
+.footer-text {
+    color: #666666;
+    padding-top: 25px;
+    line-height: 35px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #0084F4;
+}
+
+footer li {
+    padding-bottom: 0.5rem;
+}
+
+.Explore,
+.Services,
+.Follow,
+.Legal {
+    padding-top: 18px;
+}
