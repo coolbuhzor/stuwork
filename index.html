@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- bootstrap link -->
 
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+     <link rel="stylesheet" href="/bootstrap/css/bootstrap.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
 
     <!-- font awesome -->
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
@@ -21,43 +21,43 @@
 
 <body class="container-fluid">
 
-    <header>
-        <nav class="navbar navbar-expand-lg container navbar-light bg-light">
+    <header class="">
+        <nav class="navbar navbar-expand-lg container navbar-light bg-light ">
             <a class="navbar-brand" href="#"><img src="/images/LOGO.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
             </button>
-
+   
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link navlink" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navlink" href="#">Find Jobs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navlink" href="#">Hire Intern</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navlink" href="#">AboutUs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navlink" href="#">ContactUs</a>
-                    </li>
-                    <li class="nav-item FAQ">
-                        <a class="nav-link navlink" href="#">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link Sign-up" href="./signup.html">Sign Up</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn-primary Sign-in" href="./signin.html">Sign In</a>
-                    </li>
-                </ul>
+               <ul class="navbar-nav mr-auto ">
+                  <li class="nav-item active">
+                     <a class="nav-link navlink" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link navlink" href="#">Find Jobs</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link navlink" href="#">Hire Intern</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link navlink" href="#">AboutUs</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link navlink" href="#">ContactUs</a>
+                  </li>
+                  <li class="nav-item FAQ">
+                     <a class="nav-link navlink" href="#">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link Sign-up" href="./signup.html">Sign Up</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link btn-primary Sign-in" href="./signin.html">Sign In</a>
+                  </li>
+               </ul>
             </div>
-        </nav>
+         </nav>
 
         <!-- <div class="topnav" id="myTopnav">
            <div class="container header-logo">
@@ -85,9 +85,9 @@
 
 
 
-    <div class="container head-section">
+    <div class="container head-section ">
         <div class="row">
-            <div class="pt-5 col-md-6">
+            <div class="header-text col-md-6">
                 <h2>
                     Student? lets get you started to gaining <br> experience <b>Experience</b> and <b>Earning</b> <br>
                     while in school
@@ -132,14 +132,14 @@
         <div class="find-job">
             <h5>Find a job</h5>
             <div class="row">
-                 <div class="col-md-3  job- pb-15">
+                 <div class="col-md-3  job- pb-3">
                     <input size="30" type="search" name="search" id="search"
                         placeholder="Job title, keywords or company">
                 </div>
 
                 <div class="col-md-4  job-title ">
                     
-                 <select  name = "dropdown">
+                 <select size="" name = "dropdown">
                     <option value = "Full-time" selected>Full-Time</option>
                     <option value = "Part-time">Part-time</option>
                     <option value = "Internship">Intership</option>
@@ -152,29 +152,33 @@
                     <input size="20" type="text" name="location" id="location" placeholder=" Location">
                 </div>
 
-                <div class="col-md-2  search">
+                <div class="col-md-2  search ">
                     <button>search</button>
                 </div>
+               
 
-                <hr>
-                <h5>
-                    Recent Opening
-                </h5>
+        </div>
+        <hr id="hr-1" style="color: 2px grey solid"> 
+    
 
 
                 <div class="job-card container">
+                            
+                <h5>
+                    Recent Opening
+                </h5>
                     <!-- card-1 -->
                     <div class="row">
                         <!-- card 1 -->
                         <div class="col-md-6">
                             <div class="card mb-3" style="max-width: 540px;">
                                 <div class="row no-gutters">
-                                    <div class="col-md-4">
-                                        <img class="job-card-img " src="./assets/green-like.svg" alt="">
+                                    <div class="col-md-4 job-card-img">
+                                        <img id="" class="" src="./assets/green-like.svg" alt="">
                                         <!-- <img src="..." class="card-img" alt="..."> -->
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card-body">
+                                        <div class="card-body ">
                                             <h5 class="card-title">Andela</h5>
                                             <h4>UI/UX Designer</h4>
 
@@ -199,8 +203,8 @@
                         <div class="col-md-6">
                             <div class="card mb-3" style="max-width: 540px;">
                                 <div class="row no-gutters">
-                                    <div class="col-md-4">
-                                        <img class="job-card-img " src="./assets/purple.svg" alt="">
+                                    <div class="col-md-4 job-card-img">
+                                        <img class=" " src="./assets/purple.svg" alt="">
                                         <!-- <img src="..." class="card-img" alt="..."> -->
                                     </div>
                                     <div class="col-md-6">
@@ -216,7 +220,7 @@
                                     </div>
 
                                     <div class="emoji">
-                                        <p>❤</p>
+                                        <p class="job-card-img">❤</p>
                                     </div>
                                 </div>
                             </div>
@@ -232,8 +236,8 @@
                         <div class="col-md-6">
                             <div class="card mb-3" style="max-width: 540px;">
                                 <div class="row no-gutters">
-                                    <div class="col-md-4">
-                                        <img class="job-card-img " src="./assets/pink.svg" alt="">
+                                    <div class="col-md-4 job-card-img">
+                                        <img class=" " src="./assets/pink.svg" alt="">
                                         <!-- <img src="..." class="card-img" alt="..."> -->
                                     </div>
                                     <div class="col-md-6">
@@ -249,7 +253,7 @@
                                     </div>
 
                                     <div class="emoji">
-                                        <p>❤</p>
+                                        <p class="job-card-img">❤</p>
                                     </div>
                                 </div>
                             </div>
@@ -262,8 +266,8 @@
                         <div class="col-md-6">
                             <div class="card mb-3" style="max-width: 540px;">
                                 <div class="row no-gutters">
-                                    <div class="col-md-4">
-                                        <img class="job-card-img " src="./assets/blue.svg" alt="">
+                                    <div class="col-md-4 job-card-img">
+                                        <img class=" " src="./assets/blue.svg" alt="">
                                         <!-- <img src="..." class="card-img" alt="..."> -->
                                     </div>
                                     <div class="col-md-6">
@@ -279,7 +283,7 @@
                                     </div>
 
                                     <div class="emoji">
-                                        <p>❤</p>
+                                        <p class="job-card-img">❤</p>
                                     </div>
                                 </div>
                             </div>
@@ -363,12 +367,12 @@
         <h3> <span>Testim</span>onials From our Users</h3>
         <div class="card-deck">
 
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <img src="./assets/turtle-neck.svg" class="card-img-top " alt="">
                 <div class="card-body">
                     <h5 class="card-title text-left">Philip Olorunfemi Ofei</h5>
-                    <p>Product Designer</p>
-                    <p>300L University Of Lagos </p>
+                    <p class="text-left">Product Designer</p>
+                    <p class="text-left">300L University Of Lagos </p>
                     <p class="card-text">I am a 300level student from the university of lagos, even tho i started good
                         at what i do, i have not been given an opportunity by companies to showcase my talent and
                         passion, stuwork has proven that you can still work and go to school, their platform has... Read
@@ -384,8 +388,8 @@
                 <img src="./assets/Rectangle 9.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-left">Philip Olorunfemi Ofei</h5>
-                    <p>Product Designer</p>
-                    <p>300L University Of Lagos </p>
+                    <p class="text-left">Product Designer</p>
+                    <p class="text-left">300L University Of Lagos </p>
                     <p class="card-text">I am a 300level student from the university of lagos, even tho i started good
                         at what i do, i have not been given an opportunity by companies to showcase my talent and
                         passion, stuwork has proven that you can still work and go to school, their platform has... Read
@@ -400,8 +404,8 @@
                 <img src="./assets/Rectangle 9 (1).png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-left">Philip Olorunfemi Ofei</h5>
-                    <p>Product Designer</p>
-                    <p>300L University Of Lagos </p>
+                    <p class="text-left">Product Designer</p>
+                    <p class="text-left">300L University Of Lagos </p>
                     <p class="card-text">I am a 300level student from the university of lagos, even tho i started good
                         at what i do, i have not been given an opportunity by companies to showcase my talent and
                         passion, stuwork has proven that you can still work and go to school, their platform has... Read
@@ -438,7 +442,7 @@
     <section class="final-section container-fluid ">
         <div class="pad"></div>
 
-        <hr>
+        <hr id="hr-2">
 
         <div class="final-sect-txt-1 text-center container">
             <p>
@@ -651,7 +655,7 @@
 
 </body>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
 </script>
 <script src="https://cdn.jsdelivr.
@@ -661,6 +665,6 @@ net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
 </script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-</script>
+</script> 
 
 </html>

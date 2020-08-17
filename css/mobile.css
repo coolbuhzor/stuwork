@@ -1,0 +1,203 @@
+@media only screen and (max-width: 1240px) {
+
+    input {
+        border: 1px solid #666666;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 5px;
+        height: 50px;
+        width: 250px;
+        border-color: #2D9CDB;
+
+    }
+
+    input:focus {
+        color: #2D9CDB;
+    }
+
+    .job-title select {
+        width: 250px !important;
+        height: 50px;
+        padding: 10px;
+        border-radius: 8px;
+        margin-left: 20px !important;
+        border-color: #2D9CDB;
+        margin-left: 10px;
+    }
+
+    #location {
+        margin-left: -30px !important;
+        margin-right: 10px;
+
+    }
+
+    .find-job button {
+        border-radius: 8px;
+        color: #FFFFFF;
+        width: 151px;
+        height: 50px;
+        background-color: #0084f4;
+        border: none;
+        margin-right: 10px !important;
+
+    }
+
+    .job-card .card {
+        padding-top: 30px !important;
+    }
+
+    .job-card h5 {
+        font-size: 1.5rem !important;
+        font-weight: 500;
+    }
+
+}
+
+
+@media only screen and (max-width: 760px) {
+
+   .input{border: 1px solid #666666;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 5px;
+    height: 50px;
+    width: 250px;
+    border-color: #2D9CDB;
+
+}
+
+input:focus {
+    color: #2D9CDB;
+}
+
+.job-title select {
+    width: 250px !important;
+    height: 50px;
+    padding: 5px;
+    border-radius: 8px;
+    /* margin-left:  !important; */
+    border-color: #2D9CDB;
+    margin-left: unset !important;
+}
+
+#location {
+    margin-left: 0px !important;
+    margin-right: 10px;
+
+}
+
+.find-job button {
+    border-radius: 8px;
+    color: #FFFFFF;
+    width: 151px;
+    height: 50px;
+    background-color: #0084f4;
+    border: none;
+    margin-top: 10px !important;
+
+}
+
+.job-card .card {
+    padding-top: 30px !important;
+}
+
+.job-card h5 {
+    font-size: 1.5rem !important;
+    font-weight: 500;
+}
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .input{border: 1px solid #666666;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 5px;
+        height: 50px;
+        width: 250px;
+        border-color: #2D9CDB;
+    
+    }
+    
+    input:focus {
+        color: #2D9CDB;
+    }
+    
+    .job-title select {
+        width: 250px !important;
+        height: 50px;
+        padding: 5px;
+        border-radius: 8px;
+        /* margin-left:  !important; */
+        border-color: #2D9CDB;
+        margin-left: unset !important;
+    }
+    
+    #location {
+        margin-left: 0px !important;
+        margin-right: 10px;
+    
+    }
+    
+    .find-job button {
+        border-radius: 8px;
+        color: #FFFFFF;
+        width: 151px;
+        height: 50px;
+        background-color: #0084f4;
+        border: none;
+        margin-top: 10px !important;
+    
+    }
+    .job-card-img img {
+        padding-left: 1rem !important;
+    }
+
+
+    .job-card {
+        padding-left: 2em;
+        align-content: center;
+        text-justify: center;
+    }
+    
+    .job-card .card {
+        padding-top: 30px !important;
+        padding-left: 2em !important;
+    }
+    
+    .job-card h5 {
+        font-size: 1.5rem !important;
+        font-weight: 500;
+    }
+
+
+    .number-text b {
+        font-size: 1.5rem !important;   
+        background-color: #2F80ED;
+        border-radius: 50%;
+        color: white;
+        padding: 10px !important;
+        width: 1rem;
+        height: 1rem;
+        
+
+    }
+
+    .number-text span {
+        color: #56CCF2;
+        font-weight: 100 !important;
+        font-size: 1rem !important; 
+        word-spacing: 1rem !important;
+        border-radius: 50%;
+    
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 320px) {}

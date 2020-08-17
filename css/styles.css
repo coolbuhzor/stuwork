@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Gilroy', sans-serif;
+
+    
     /* font-size: 18px; */
 }
 
@@ -15,7 +17,7 @@
 header {
     background: white;
     box-shadow: 0px 8px 16px rgba(50, 50, 71, 0.06);
-    /* position: fixed; */
+     position: fixed; 
     float: left;
     width: 100%;
     z-index: 20;
@@ -55,9 +57,6 @@ header {
 
 
 
-.Sign-up {
-    border: 1px solid #2F80ED !important;
-}
 
 .Sign-up:hover {
     background-color: #0084F4;
@@ -96,6 +95,11 @@ header {
     background-color: #F8F8F8;
 }
 
+.header-text {
+padding-top: 6rem !important;
+
+}
+
 .head-section p {
     font-family: 'gilroy';
     font-style: normal;
@@ -117,30 +121,6 @@ header {
     background-color: #0084f4;
     border: none;
     margin-bottom: 15%;
-}
-
-/* header {
-    background: url(../assets/StuWork.png)  no-repeat center center/cover;
-   
-    height: 550px;
-    width: 90%;
-} */
-
-.image-4 {
-    position: absolute;
-    left: 50px;
-    top: 50px;
-}
-
-.image-2 {
-    position: absolute;
-    right: 50px;
-}
-
-.image-3 {
-    position: absolute;
-    top: 50px;
-    z-index: -2;
 }
 
 
@@ -174,25 +154,38 @@ input {
     border: 1px solid #666666;
     box-sizing: border-box;
     border-radius: 8px;
-    height: 30px;
+    padding: 5px;
+    height: 50px;
+    border-color: #2D9CDB;
 
 }
 
-input:hover {
+input:focus {
     color: #2D9CDB;
 }
 
 .job-title {
     width: 10%;
     height: 60px;
+    border-radius: 8px;
+}
+.job-title select {
+    width: 350px;
+height: 50px;
+padding: 10px;
+    border-radius: 8px;
+    border-color:#2D9CDB ;
+    margin-left: 10px;
 }
 
 .find-job button {
-color: white;
-background-color: #0084F4;
-padding: 5%;
-border: none;
-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    width: 151px;
+    height: 50px;
+    background-color: #0084f4;
+    border: none;
+    margin-bottom: 15%;
 
 }
 
@@ -216,7 +209,7 @@ select {
     border-radius: 8px;
     border: 1px solid #0011;
     box-shadow: 2px 8px 16px rgba(50, 50, 71, 0.08);
-    padding: 5%;
+    padding: 3%;
 
 }
 
@@ -228,11 +221,7 @@ select {
 
 
 
-.job-card-text {
-    /* float: right; */
-    padding-left: 3%;
 
-}
 
 
 
@@ -250,9 +239,10 @@ select {
 }
 
 .get-hired-h3 span {
-    padding-bottom: 4%;
-    text-decoration: underline;
-    text-decoration-color: #FF647C;
+    /* padding-bottom: 4%; */
+    /* text-decoration: underline; */
+    /* text-decoration-color: #FF647C; */
+    border-bottom: 3px #FF647C solid
 }
 
 /* .step123 {
@@ -336,8 +326,9 @@ border-radius: 0px 0px 12px 12px;
 
 
 .testimonial span {
-    text-decoration: underline;
-    text-decoration-color: #FF647C;
+    /* text-decoration: underline;
+    text-decoration-color: #FF647C; */
+    border-bottom: 3px #FF647C solid
 }
 
 
@@ -384,7 +375,7 @@ border-radius: 0px 0px 12px 12px;
     padding-top: 3rem;
 }
 
-.final-section hr {
+#hr-2 {
     width: 6.5rem;
     height: 5px;
     background: #FF647C;
@@ -435,9 +426,10 @@ border-radius: 0px 0px 12px 12px;
 }
 
 .final-sect-txt-2 span {
-    padding-bottom: 10%;
+    /* padding-bottom: 10%;
     text-decoration: underline;
-    text-decoration-color: #FF647C;
+    text-decoration-color: #FF647C; */
+    border-bottom: 3px #FF647C solid
 
 }
 

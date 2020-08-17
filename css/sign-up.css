@@ -218,7 +218,7 @@ form {
    margin-bottom: 0;
    font-weight: normal;
    cursor: pointer;
-   vertical-align: sub;
+   /* vertical-align: sub; */
 }
 .checkbox label span {
    position: absolute;
