@@ -1,84 +1,18 @@
 * {
-    box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    font-family: 'Gilroy', sans-serif;
-
-    
-    /* font-size: 18px; */
-}
-
-
-
-
-
-
-/* *************************NAV section**************************** */
-header {
-    background: white;
-    box-shadow: 0px 8px 16px rgba(50, 50, 71, 0.06);
-     position: fixed; 
-    float: left;
-    width: 100%;
-    z-index: 20;
-
-}
-
-.navbar-brand img,
-.header-logo img {
-    width: 97px;
-}
-
-
-.navbar-brand {
-    padding-right: 5rem;
-}
-
-
-
-.FAQ {
-    padding-right: 4rem;
-}
-
-
-.Sign-in {
-    color: white !important;
-    width: 130px;
-    background: #0084F4;
-    border-radius: 5px;
-    text-align: center;
-}
-
-
-.Sign-in,
-.Sign-up {
-    margin-top: 0.5rem;
-}
-
-
-
-
-.Sign-up:hover {
-    background-color: #0084F4;
-}
-
-
-.navlink {
-    color: #666666;
-    border-bottom: 5px solid transparent;
-    /* padding: 1rem !important;  */
-}
-
-
-#navbarSupportedContent a:hover {
-    border-color: #2D9CDB;
-}
-
+    border: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+    font-size: 18px;
+ }
 
 /* ********************************* HEADER SECTION**************************************** */
 
-.stu-work {
+/* .stu-work {
     width: 50%;
+} */
+body {
+    overflow-x: hidden;
 }
 
 .head-section h2 {
@@ -91,12 +25,13 @@ header {
 
     color: #151522;
 }
+
 .head-section {
     background-color: #F8F8F8;
 }
 
 .header-text {
-padding-top: 6rem !important;
+    padding-top: 6rem !important;
 
 }
 
@@ -142,6 +77,7 @@ padding-top: 6rem !important;
 .section-3 {
     padding-bottom: 10%;
 }
+
 .find-job h5 {
     padding: 4% 0 3% 0;
     font-style: normal;
@@ -169,13 +105,15 @@ input:focus {
     height: 60px;
     border-radius: 8px;
 }
+
 .job-title select {
-    width: 350px;
-height: 50px;
-padding: 10px;
+    border: 1px solid #666666;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
     border-radius: 8px;
-    border-color:#2D9CDB ;
-    margin-left: 10px;
+    border-color: #2D9CDB;
+    margin-left: 20px;
 }
 
 .find-job button {
@@ -239,18 +177,12 @@ select {
 }
 
 .get-hired-h3 span {
-    /* padding-bottom: 4%; */
-    /* text-decoration: underline; */
-    /* text-decoration-color: #FF647C; */
-    border-bottom: 3px #FF647C solid
+    border-bottom: 3px #FF647C solid;
+    font-size: 36px;
+    padding-bottom: 8px;
 }
 
-/* .step123 {
-    justify-content: center;
-    align-self: center;
-    align-content: center;
-    justify-self: center;
-} */
+
 .steps {
     background: #56CCF2;
     width: 10px;
@@ -260,20 +192,17 @@ select {
     float: left;
 }
 
-.step-num {
-    float: left;
-    /* display: inline; */
-}
+
 
 
 .number-text b {
     font-size: 1.5rem;
     background-color: #2F80ED;
-    border-radius: 50%;
+    border-radius: 100% !important;
     color: white;
     padding: 15px;
-    width: 3.75rem;
-    height: 3.75rem;
+    width: 750px !important;
+    height: 50px !important;
 
 }
 
@@ -315,20 +244,20 @@ select {
 .testimonial .card {
     border: none;
     background: #FFFFFF;
-box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.25);
-border-radius: 12px;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
 }
 
 .card-footer {
     background: #00C48C;
-border-radius: 0px 0px 12px 12px;
+    border-radius: 0px 0px 12px 12px;
 }
 
 
 .testimonial span {
-    /* text-decoration: underline;
-    text-decoration-color: #FF647C; */
-    border-bottom: 3px #FF647C solid
+    border-bottom: 3px #FF647C solid;
+    font-size: 36px;
+    padding-bottom: 8px;
 }
 
 
@@ -361,7 +290,7 @@ border-radius: 0px 0px 12px 12px;
 
 .plain-text button:hover {
     padding: 1.2rem;
-    
+
 }
 
 /* ***********final  section*********** */
@@ -426,11 +355,9 @@ border-radius: 0px 0px 12px 12px;
 }
 
 .final-sect-txt-2 span {
-    /* padding-bottom: 10%;
-    text-decoration: underline;
-    text-decoration-color: #FF647C; */
-    border-bottom: 3px #FF647C solid
-
+    border-bottom: 3px #FF647C solid;
+    font-size: 36px;
+    padding-bottom: 8px;
 }
 
 
@@ -511,49 +438,3 @@ border-radius: 0px 0px 12px 12px;
 
 
 /* **********************************FOOTER*********************************** */
-
-.fa-social {
-    padding: 1.5rem;
-    color: transparent;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: white;
-}
-
-.page-footer {
-    padding-top: 4.5rem;
-}
-
-footer {
-    background: #151522;
-    color: white;
-}
-
-footer img {
-    width: 175.43px;
-}
-
-.footer-text {
-    color: #666666;
-    padding-top: 25px;
-    line-height: 35px;
-}
-
-footer a {
-    color: white;
-}
-
-footer a:hover {
-    text-decoration: none;
-    color: #0084F4;
-}
-
-footer li {
-    padding-bottom: 0.5rem;
-}
-
-.Explore,
-.Services,
-.Follow,
-.Legal {
-    padding-top: 18px;
-}

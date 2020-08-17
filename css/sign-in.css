@@ -5,73 +5,7 @@
    font-family: Gilroy;
    font-size: 18px;
 }
-header {
-   background: white;
-   box-shadow: 0px 8px 16px rgba(50, 50, 71, 0.06);
-   position: fixed;
-   float: left;
-   width: 100%;
-   z-index: 20;
-}
-/* .topnav {
-   overflow: hidden;
- }
- 
- .topnav a {
-   float: left;
-   display: block;
-   color: #666666;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-   font-size: 17px;
-   border-bottom: 5px solid transparent;
-   padding: 1rem !important;
- }
- 
- .topnav a:hover {
-   text-decoration: none;
-   border-color: #2D9CDB;
- }
- 
- .topnav a.active {
-   border-color: #2D9CDB;
-   color: #2D9CDB;
- }
- 
- .topnav .icon {
-   display: none;
- } */
-.navbar-brand img, .header-logo img {
-   width: 97px;
-}
-.navbar-brand {
-   padding-right: 5rem;
-}
 
-.FAQ {
-   padding-right: 4rem;
-}
-.Sign-in {
-   color: white !important;
-   width: 130px;
-   background: #0084F4;
-   border-radius: 5px;
-   text-align: center;
-}
-.Sign-in, .Sign-up {
-  margin-top: 0.5rem;
-}
-
-.navlink {
-   color: #666666;
-   border-bottom: 5px solid transparent;
-   padding: 1rem !important; 
-}
-
-#navbarSupportedContent a:hover {
-   border-color: #2D9CDB;
-}
 .input-container {
    width: 100%;
 }
@@ -162,40 +96,7 @@ form {
    margin-left: -30px;
    cursor: pointer;
 }
-.fa-social {
-   padding: 1.5rem;
-   color: transparent;
-   -webkit-text-stroke-width: 0.5px;
-   -webkit-text-stroke-color: white;
-}
-.page-footer {
-   padding-top: 4.5rem;
-}
-footer {
-   background: #151522;
-   color: white;
-}
-footer img {
-   width: 175.43px;
-}
-.footer-text {
-   color: #666666;
-   padding-top: 25px;
-   line-height: 35px;
-}
-footer a {
-   color: white;
-}
-footer a:hover {
-   text-decoration: none;
-   color: #0084F4;
-}
-footer li {
-   padding-bottom: 0.5rem;
-}
-.Explore, .Services, .Follow, .Legal {
-   padding-top: 18px;
-} 
+
 @media screen and (max-width: 1024px) {
    
 }
@@ -218,9 +119,9 @@ footer li {
    .Sign-in {
       width: 100%
    }
-   .form {
-      display: ;
-   }
+   /* .form {
+      /* display: ; 
+   } */
    form, .form-text, .Welcome-back, .checkbox {
       padding: 0;
       margin-left: 0;

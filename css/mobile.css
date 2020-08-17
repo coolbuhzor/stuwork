@@ -172,6 +172,10 @@ input:focus {
         font-weight: 500;
     }
 
+    .number-text {
+        padding: 7% 0 !important;
+    }
+
 
     .number-text b {
         font-size: 1.5rem !important;   
@@ -198,6 +202,3 @@ input:focus {
 
 }
 
-
-
-@media only screen and (max-width: 320px) {}

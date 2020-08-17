@@ -1,0 +1,233 @@
+* {
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+   font-family: Gilroy;
+   font-size: 18px;
+   overflow-x: hidden;
+}
+.body {
+   background-color: #f8f8f8;
+}
+header {
+   background: white;
+   box-shadow: 0px 8px 16px rgba(50, 50, 71, 0.06);
+   position: fixed;
+   float: left;
+   width: 100%;
+   z-index: 1;
+}
+.navbar-brand img, .header-logo img {
+   width: 97px;
+}
+.navbar-brand {
+   padding-right: 5rem;
+}
+
+.FAQ {
+   padding-right: 4rem;
+}
+.Sign-in {
+   color: white !important;
+   width: 130px;
+   background: #0084F4;
+   border-radius: 5px;
+   text-align: center;
+}
+.Sign-in, .Sign-up {
+  margin-top: 0.5rem;
+}
+
+.navlink {
+   color: #666666;
+   border-bottom: 5px solid transparent;
+   padding: 1rem !important; 
+}
+
+#navbarSupportedContent a:hover {
+   border-color: #2D9CDB;
+}
+
+.body-image img {
+   width: 1500px;
+   height: auto;
+}
+.body-image-text {
+   position: absolute;
+   top: 9.125rem;
+   left: 10rem;
+   color: white;
+}
+h1 {
+   font-size: 64px !important;
+}
+#students {
+   font-size: 64px;
+   color: #ff647c;
+   background: white;
+   padding: 0 1rem;
+   border-radius: 8px;
+}
+.section-1 {
+   margin-top: 23rem;
+   background-color: #E4E4E4;
+   padding: 2%;
+}
+
+.com-logo img {
+   padding: 1%;
+}
+.finding-talent-hr {
+   width: 100px;
+   height: 5px;
+   margin-left: 45% ;
+   background: #ff647c;
+}
+.finding-young-talent {
+   margin: -110px 9% ;
+   position: absolute;
+   width: 1070px;
+   height: 439px;
+   background: white;
+   padding: 3rem 4.31rem;
+   box-shadow: 2px 8px 24px rgba(186, 213, 249, 0.16);
+   border-radius: 8px;
+}
+
+.buttons {
+   width: 200px;
+   height: 61px;
+   /* padding: 0.5rem 3rem !important; */
+}
+.why-choose-us-text {
+   background: white;
+   margin-top: 4rem;
+   
+}
+.why-choose-us {
+   margin-top: 4rem;
+}
+.why-choose-us img {
+   width: 598px;
+   height: 486px;
+}
+.why-choose-us-text p {
+   font-weight: bold;
+   font-size: 32px;
+   padding: 3.75rem 3.75rem 0 3.75rem;
+}
+
+.why-choose-us-text li {
+   padding: 0 0 0 3rem;
+}
+#list-bullet {
+   font-size: 50px;
+   /* width: ; */
+   height: auto;
+}
+
+.free-job-img img {
+   width: 1500px;
+   height: auto;
+}
+.free-job-img-section {
+   margin-top: 4rem;
+}
+.cards-section {
+   margin: 25rem 0 4rem 0;
+} 
+.card-images img {
+   width: 224px;
+   height: 191px;
+}
+.card {
+   border-radius: 8px !important;
+}
+.acct-mgr {
+   padding: 0 0 1.6rem 0;
+}
+
+.fa-social {
+   padding: 20px 1rem 0 0;
+   color: transparent;
+   -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: white;
+}
+.page-footer {
+   padding-top: 4.5rem;
+}
+footer {
+   background: #151522;
+   color: white;
+}
+footer img {
+   width: 175.43px;
+}
+.footer-text {
+   color: #666666;
+   padding-top: 25px;
+   line-height: 35px;
+}
+footer a {
+   color: white;
+}
+footer a:hover {
+   text-decoration: none;
+   color: #0084F4;
+}
+footer li {
+   padding-bottom: 0.5rem;
+}
+.Explore, .Services, .Follow, .Legal {
+   padding-top: 18px;
+} 
+@media screen and (max-width: 1024px) {
+   
+}
+@media screen and (max-width: 950px) {
+
+}
+@media screen and (max-width: 650px) {
+
+}
+@media screen and (max-width: 480px) {
+
+   .Sign-up {
+      margin-left: 15px
+   }
+   .Sign-in {
+      width: 100%
+   }
+ 
+     
+   form, .form-text, .Welcome-back, .checkbox {
+      padding: 0;
+      margin-left: 0;
+   }
+   .forgot-password {
+      padding-left: 2rem;
+   }
+   .form {
+      width: 100%;
+   }
+   .icon {
+      padding-left: 60px;
+   }
+   .fa-envelope-o{
+      padding: 0;
+      padding-left: 55px;
+   }
+  .user-container, .password-container {
+      padding-left: 0;
+   }
+   input {
+      width: unset;
+      padding-left: 20px;
+   }
+   .Welcome-back {
+      padding: 3.125rem 0;
+   }
+   .form-signup {
+      width: 100%;
+   }
+}
