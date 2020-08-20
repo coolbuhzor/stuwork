@@ -1,5 +1,8 @@
 
- header {
+* {
+   font-family: 'Khula';
+}
+header {
     background: white;
     box-shadow: 0px 8px 16px rgba(50, 50, 71, 0.06);
     position: fixed;
@@ -11,11 +14,11 @@
     width: 97px;
  }
  .navbar-brand {
-    padding-right: 5rem;
+    padding-right: 2rem;
  }
  
  .FAQ {
-    padding-right: 4rem;
+    padding-right: 2rem;
  }
  .Sign-in {
     color: white !important;

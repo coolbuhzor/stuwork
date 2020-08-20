@@ -1,0 +1,97 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: 18px;
+
+}
+/* .image-wrapper img {
+   width: 100%;
+   height: auto;
+}
+
+.image-wrapper figcaption {
+   width: 100%;
+   position: absolute;
+   top: 60%;
+   transform: translateY(-50%);
+   text-align: center;
+   font-size: 2em;
+   color: white;
+}
+.figcaption-img img {
+   width: 345px;
+   height: 234px;
+} */
+
+#Africa-top-barbershop {
+   background: url(/assets/Error.png) no-repeat center center/cover;
+   height:949px ;
+   
+}
+
+
+.figcaption-img  {
+   margin-right: auto;
+   margin-left: auto;
+   padding-top: 15%;
+   padding-bottom: 5%;
+}
+
+
+
+.opps {
+   font-weight: 900;
+   font-size: 48px;
+   line-height: 57px;
+   font-family: roboto;
+}
+.text {
+   font-size: 28px;
+   line-height: 33px;
+   font-family: roboto;
+   font-weight: 800;
+}
+.form-control {
+   width: 99% !important;
+}
+input {
+   margin: 1rem 0 !important;
+   padding: 25px 20px;
+   border-radius: unset !important;
+   background: white;
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 950px) {
+
+}
+@media screen and (max-width: 650px) {
+
+}
+@media screen and (max-width: 480px) {
+   .figcaption-img img {
+      width: 35%;
+      position: absolute;
+      top: -155%;
+      left: 30%;
+   }
+   .image-wrapper figcaption {
+      width: 100%;
+      position: absolute;
+      top: 35%;
+      transform: translateY(-90%);
+   }
+   p {
+      margin-bottom: unset !important;
+   }
+   .opps {
+      font-size: 18px;
+      line-height: unset;
+   }
+   .text {
+      font-size: 12px;
+      line-height: unset;
+   }
+}

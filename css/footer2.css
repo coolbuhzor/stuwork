@@ -1,0 +1,61 @@
+* {
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+   font-family: Gilroy;
+   font-size: 18px;
+}
+
+.fa-social {
+   padding: 20px 1rem 0 0;
+   color: transparent;
+   -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: white;
+}
+.page-footer {
+   padding-top: 4.5rem;
+}
+footer {
+   background: #151522;
+   color: white;
+}
+footer img {
+   width: 175.43px;
+}
+.footer-text {
+   color: #666666;
+   padding-top: 25px;
+   line-height: 35px;
+}
+footer a {
+   color: white;
+}
+footer a:hover {
+   text-decoration: none;
+   color: #0084F4;
+}
+footer li {
+   padding-bottom: 0.5rem;
+}
+.Explore, .Services, .Follow, .Legal {
+   padding-top: 18px;
+}
+.button-send {
+   width: 100px;
+   float: right;
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 950px) {
+
+}
+@media screen and (max-width: 650px) {
+
+}
+
+@media screen and (max-width: 480px) {
+   .button-send {
+      /* float: left; */
+   }
+}
+

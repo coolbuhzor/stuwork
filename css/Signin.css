@@ -5,7 +5,6 @@
    font-family: Gilroy;
    font-size: 18px;
 }
-
 .input-container {
    width: 100%;
 }
@@ -28,14 +27,16 @@ input {
    border-radius: 8px;
 }
 .user-container {
-   border-bottom: 1px #66666681 solid;
    padding: 1rem;
    padding-left: 4rem;
 }
+p {
+   margin-bottom: 1rem !important;
+}
 .password-container {
-   border-bottom: 1px #66666681 solid; 
-   padding: 1rem;
-   padding-left: 4rem;
+   border-top: unset !important;
+   border: 1px #66666681 solid; 
+   padding: 1rem 0 0.5rem 0;
 }
 .fa-lock {
    font-size: 1.5rem; 
@@ -60,8 +61,8 @@ input {
    text-decoration: none;
    color: #2D9CDB;
 }
-form {
- margin-left: 12rem;
+#form {
+ margin-left: 12rem !important;
 }
 .form-bottom-text {
    padding-top: 1rem;
@@ -79,7 +80,7 @@ form {
    width: 37.5rem;
 }
 .icon {
-   min-width: 50px;
+   min-width: 80px;
    text-align: center;
 }
 .form-icon {
@@ -88,16 +89,65 @@ form {
    -webkit-text-stroke-width: 1.5px;
    -webkit-text-stroke-color: #666666;
 }
-/* .fa-eye {
-   padding-right: 2rem;
-} */
 
-.container i {
-   margin-left: -30px;
+.exclamationMark {
+   visibility: hidden;
+   margin-left: -50px;
+   color: #e74c3c;
+}
+.password-control {
+   width: 75% !important;
+   border-bottom-left-radius: 10px !important;
+   border-bottom-right-radius: 10px !important;
+}
+.form-control {
+   padding: 1rem 0rem 3rem 0 !important;
+   width: 75% !important;
+   border-top-left-radius: 10px !important;
+   border-top-right-radius: 10px !important;
+   border-bottom-left-radius: 0 !important;
+   border-bottom-right-radius: 0 !important;
+   /* border-radius: 0 !important; */
+}
+.form-control.error i.fa-exclamation-circle {
+   visibility: visible;
+}
+
+.password-control small{
+   position: absolute;
+   left: 23.5rem;
+   padding-top: 0;
+   color: #e74c3c;
+}
+
+.form-control small {
+   visibility: hidden;
+   position: absolute;
+   left: 23.5rem;
+   padding-top: 0;
+   color: #e74c3c;
+}
+.form-control.error small {
+   visibility: visible;
+}
+#togglePassword {
    cursor: pointer;
 }
 
-@media screen and (max-width: 1024px) {
+.footer-form-control {
+   width: 14rem !important;
+   margin-left: unset !important;
+   border-radius: unset !important;
+}
+.footer-form input {
+   margin: 1rem 0 !important;
+   border: unset !important;
+}
+.footer-form-control {
+   padding: 0.375rem 0.75rem !important;
+   border-radius: unset !important;
+}
+/* @media screen and (max-width: 1024px) {
    
 }
 @media screen and (max-width: 950px) {
@@ -107,21 +157,6 @@ form {
 
 }
 @media screen and (max-width: 480px) {
-   /* .custom-toggler.navbar-toggler, .custom-toggler .navbar-toggler-icon { 
-      border-color: #666666 !important; 
-  } 
-  .home, .Sign-up {
-     margin-left: 0 !important;
-  } */
-   .Sign-up {
-      margin-left: 15px
-   }
-   .Sign-in {
-      width: 100%
-   }
-   /* .form {
-      /* display: ; 
-   } */
    form, .form-text, .Welcome-back, .checkbox {
       padding: 0;
       margin-left: 0;
@@ -152,21 +187,4 @@ form {
    .form-signup {
       width: 100%;
    }
-   /* .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  } */
-}
+} */

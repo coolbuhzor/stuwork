@@ -1,0 +1,163 @@
+* {
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+   font-family: 'khula';
+   font-size: 18px;
+   /* overflow-x: hidden; */
+}
+
+body {
+   font-family: 'khula';
+}
+
+.heading-top {
+   background:url(/assets/Contact-us-image.png)   no-repeat center center/cover;
+   height: 398px;
+}
+
+
+
+.contact-us {
+/* width: 486px;
+height: 75px;
+left: 477px;
+top: 221px; */
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 15%;
+
+
+
+}
+
+.image-wrapper figcaption {
+   width: 100%;
+   position: absolute;
+   top: 35%;
+   transform: translateY(-50%);
+   text-align: center;
+   font-size: 2em;
+   color: white;
+}
+.contact-us img {
+   width: 385px !important;
+}
+.image-wrapper img {
+  width: 1500px;
+   height: auto;
+}
+.section-1 {
+   background: #f8f8f8;
+}
+.first-section {
+   margin-top: 8rem;
+}
+.first-section h3 {
+   font-size: 28px;
+   line-height: 34px;
+   color: #666666;
+   font-weight: bold;
+}
+.write-us-text {
+   width: 26rem;
+}
+.address-text {
+   width: 250px;
+}
+
+textarea {
+   height: 10rem !important;
+   resize: unset !important;
+}
+.buttons {
+   width: 200px;
+   height: 61px;
+   font-size: 24px !important;
+}
+
+.offices-text {
+   width: 480px;
+}
+.address-section {
+   padding: 52px 0;
+}
+.Email {
+   margin: 52px 0 10rem 0;
+}
+.block {
+   width: 50px;
+   height: 5px;
+   background: #0084F4;
+   border-radius: 10px;
+   margin-bottom: 30px;
+}
+.form-control {
+   width: 99% !important;
+}
+input {
+   margin: 1rem 0 !important;
+   padding: 25px 20px;
+   border-radius: unset !important;
+   background: white;
+}
+
+@media screen and (max-width: 1024px) {
+   .image-wrapper img {
+      margin-top: 3rem;
+      width: 100%;
+      height: auto;
+   }
+   .image-wrapper figcaption {
+      top: 13%;
+   }
+}
+@media screen and (max-width: 950px) {
+   .first-section {
+      margin-top: 3rem;
+   }
+   .image-wrapper img {
+      margin-top: 3rem;
+      width: 100%;
+      height: auto;
+   }
+   .write-us-text {
+      width: unset;
+   }
+   .offices-text {
+      width: unset;
+   }
+   .image-wrapper figcaption {
+      top: 13%;
+   }
+}
+@media screen and (max-width: 650px) {
+
+}
+@media screen and (max-width: 480px) {
+
+   .contact-us {
+      width: 80%;
+   }
+
+
+
+   .image-wrapper img {
+      margin-top: 3rem;
+      width: 100%;
+      height: auto;
+   }
+   .contact-us img {
+      width: 300px !important;
+  }
+   .write-us-text {
+      width: unset;
+   }
+   .offices-text {
+      width: unset;
+   }
+   .first-section h3 {
+      margin-top: 52px;
+   }
+}
